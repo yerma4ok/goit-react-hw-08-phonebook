@@ -1,33 +1,31 @@
 import styled from '@emotion/styled';
 
-export const SearchContainer = styled.div`
-  /* width: 400px; */
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
-`;
-
 export const TextTitle = styled.span`
   display: block;
   margin-bottom: 10px;
   margin-left: 40px;
   color: #000;
-  font-size: 16px;
+  font-size: 20px;
+  letter-spacing: 0.06em;
 `;
 
 export const SearchInput = styled.input`
-  border: 1px solid lightgray;
-  /* margin: 20px; */
-  margin-top: 5px;
-  margin-left: 50px;
-  font-size: 16px;
-  width: 360px;
-  outline: none;
-  border-radius: 2px;
-  &:hover,
-  &:focus,
-  &:active {
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.2),
-      0px 1px 1px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  width: 300px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  :focus-within {
+    border: 1px solid #2196f3;
+  }
+  :focus-visible {
+    border: 1px solid #2196f3;
+    outline: none;
   }
 `;
