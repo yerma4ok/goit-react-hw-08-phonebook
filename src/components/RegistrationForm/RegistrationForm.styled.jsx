@@ -72,8 +72,8 @@ export const SubmitButton = styled.button`
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   :disabled {
-    background-color: #c0c0c0;
-    color: grey;
+    background-color: #d9dfc3;
+    color: #212121;
     cursor: default;
   }
   :enabled {

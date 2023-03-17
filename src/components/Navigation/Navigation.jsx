@@ -18,7 +18,7 @@ const Navigation = () => {
     <>
       <Header>
         <Container>
-          <Logo>onSpace</Logo>
+          <Logo>Phonebook</Logo>
           <NavContainer>
             <Link to={'/contacts'}>Contacts </Link>
 

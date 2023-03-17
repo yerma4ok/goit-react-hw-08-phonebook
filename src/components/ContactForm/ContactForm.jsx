@@ -83,7 +83,7 @@ const ContactForm = ({ toggleModal }) => {
                   {...field}
                   mask={phoneNumberMask}
                   id="phone"
-                  placeholder="+38 (0__) ___-__-__"
+                  placeholder="+__ (___) ___-__-__"
                   type="text"
                   error={errors.number}
                 />
