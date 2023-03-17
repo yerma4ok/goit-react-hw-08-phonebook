@@ -12,7 +12,7 @@ export const TextToNav = styled.p`
   font-size: 14px;
   letter-spacing: 0.03em;
   font-weight: 400;
-  color: #333;
+  color: black;
 `;
 
 export const LinkToNav = styled(Link)`

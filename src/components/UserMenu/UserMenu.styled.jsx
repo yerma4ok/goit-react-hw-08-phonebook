@@ -34,7 +34,7 @@ export const GreetText = styled.p`
     display: block;
     bottom: 0;
     width: 100%;
-    color: #333;
+    color: black;
     border: 1px solid;
   }
 `;
@@ -46,7 +46,7 @@ export const ProfileLink = styled(Link)`
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.03em;
-  color: #333;
+  color: black;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   :hover,
   :focus {
@@ -58,7 +58,7 @@ export const ProfileLink = styled(Link)`
     display: block;
     bottom: -20px;
     width: 100%;
-    color: #333;
+    color: black;
     border: 1px solid;
   }
 `;
@@ -67,7 +67,7 @@ export const LogOutButton = styled.button`
   display: block;
   padding: 20px 0 0 0;
   border: none;
-  color: #333;
+  color: black;
   background-color: transparent;
   font-weight: 400;
   font-size: 18px;
