@@ -63,7 +63,7 @@ export const SubmitButton = styled.button`
   border: none;
   border-radius: 5px;
   color: #212121;
-  background-color: #f5f4fa;
+  background-color: #d9dfc3;
   font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.06em;
@@ -72,7 +72,7 @@ export const SubmitButton = styled.button`
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   :disabled {
-    background-color: #d9dfc3;
+    background-color: #f5f4fa;
     color: #212121;
     cursor: default;
   }
